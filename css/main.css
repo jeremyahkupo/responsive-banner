@@ -1,5 +1,5 @@
 html {
-  font-family: "Georgia";
+  font-family: Georgia;
 }
 
 body {
@@ -12,12 +12,8 @@ body {
   color: #fff;
 }
 
-.planet-content {
-  padding: 13px;
-}
-
 .btn {
-  background-color: #495562;
+  background-color: transparent;
   border-color: #97a49b;
   color: #fff;
 }
@@ -25,13 +21,12 @@ body {
 .btn:hover {
   background-color: #fff;
   border-color: #fff;
-  color: #efefef
+  color: #495562;
 }
-
 
 @media only screen and (min-width: 35em) {
 
-  .planet {
+  .planet-content {
     bottom: 0;
     position: absolute;
     width: 100%;
