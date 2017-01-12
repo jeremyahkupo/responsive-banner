@@ -1,7 +1,33 @@
 html {
-  font-family: "Georgia"
+  font-family: "Georgia";
+}
+
+body {
+  margin: 0;
 }
 
 .embed-item {
   width: 100%;
+}
+
+.planet {
+  position: relative;
+  background-color: #495562;
+  color: #fff;
+}
+
+.planet-content {
+  padding: 13px;
+}
+
+.btn {
+  background-color: #495562;
+  border-color: #97a49b;
+  color: #fff;
+}
+
+.btn:hover {
+  background-color: #fff;
+  border color: #fff;
+  color: #efefef
 }
